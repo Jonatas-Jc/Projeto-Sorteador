@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Lobster', sans-serif;
+}
+
+body{
+    background-color:#F0FFF0;
+}
+
+
+.logo-main{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 300px;
+    height:300px;
+}
+
+h1{
+    font-size: 100px;
+    line-height: 10px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+p{
+    font-size: 50px;
+    line-height: 10px;
+    margin-top: 90px;
+    text-align: center;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+
+.ipt1{
+    width: 250px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    border-radius:10px;
+    margin-right: 30px;
+}
+
+.ipt2{
+    width: 250px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:100px;
+    border-radius: 10px;
+}
+
+
+
+
+button{
+    font-size: 30px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;  
+    margin-top:150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: #F0FFF0;
+    background-color: black;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+button:active{
+    opacity: 0.7;
+}
