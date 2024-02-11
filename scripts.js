@@ -10,6 +10,8 @@ if(numbDois <= numbUm){
 }
 else{
     const  result = Math.floor(Math.random() * (numbDois - numbUm + 1) + numbUm)
-
-    alert(result)}
+    const resultNumber = document.querySelector(".resultnumber")
+    
+    resultNumber.innerHTML = result
 }
+}   
